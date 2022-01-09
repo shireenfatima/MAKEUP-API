@@ -8,7 +8,7 @@ document.body.innerHTML = `<div class="heading-container">
 // let makeupData;
 const getData = async () => {
     try{
-    const data= await fetch("http://makeup-api.herokuapp.com/api/v1/products.json");
+    const data= await fetch("https://makeup-api.herokuapp.com/api/v1/products.json");
         const image=await data.json();
         // makeupData = image;
 
